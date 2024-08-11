@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2644CC01-82F9-384F-580D-90EE30AE57D6" name="PRODUCT CATEGORIES">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>2F7E1D6F-D5B1-14E9-D3A2-7BB21F5E3FB1</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CATEGORY ID" id="7F707DD6-4638-ADE2-6265-CBC878555997">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>20D8E205-E14C-0B9E-7D9D-80B027E3415B</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY NAME" id="7085A5DF-A379-2AB4-82E1-9F0178BFBDA1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>B7CADBE6-1AD7-3F68-D22A-105F29E5E27F</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="213996C5-11D1-D875-521C-058D3821FE44" name="PRODUCT CATEGORIES PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>6E43879E-4B0A-5700-F779-61FF6DA73536</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F707DD6-4638-ADE2-6265-CBC878555997</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

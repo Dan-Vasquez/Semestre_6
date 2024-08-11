@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="549CB42E-55E1-8990-4E48-F4F4E8603AAC" name="S2_Carrera">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:34:26 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo_Carrera" id="9561A6A8-A3F6-07E4-454B-13D6A19DDB39">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:34:48 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0A4DCCC-EE3D-9C3D-2D65-C006129BED56" name="S2_Carrera PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:37:17 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9561A6A8-A3F6-07E4-454B-13D6A19DDB39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

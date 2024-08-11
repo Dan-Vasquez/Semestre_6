@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A49A6467-FFEB-3A26-8CF7-424720B64DD3" name="Sangre">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>61FEACD5-3604-AD44-C1AA-C829D3CE0EC1</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="EFEC6413-79FC-8010-E16C-B9FE2CCCF9D8">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>7C1B944F-B6C1-2F62-25DE-29B9B51730CB</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RH" id="D432286C-EAE1-D2B6-0077-A4354D4F09DC">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>4C8612D4-CB27-0245-E2BD-7AB61828770F</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="072C4B59-730A-FC48-3AC0-5916479C2EA6" name="Sangre PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>153C95B5-307A-069E-5966-A75AC1C8BC96</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFEC6413-79FC-8010-E16C-B9FE2CCCF9D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

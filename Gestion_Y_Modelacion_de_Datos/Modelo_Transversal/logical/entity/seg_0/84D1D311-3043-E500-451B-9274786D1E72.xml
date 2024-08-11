@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84D1D311-3043-E500-451B-9274786D1E72" name="S2_Ensalsa2">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:31:42 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Grupo" id="526D347F-58C6-C7B5-96BF-4F8367817B69">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:02:30 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64848900-28BE-1627-6A86-830C84552873" name="Ensalsados PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:03:03 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>526D347F-58C6-C7B5-96BF-4F8367817B69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

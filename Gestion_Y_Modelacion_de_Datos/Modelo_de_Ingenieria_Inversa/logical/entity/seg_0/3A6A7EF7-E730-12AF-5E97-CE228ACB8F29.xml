@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A6A7EF7-E730-12AF-5E97-CE228ACB8F29" name="PRODUCTS">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>965097B7-238B-F19F-A074-8754E5D11676</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT ID" id="37A27DD6-A683-C8D2-BEBE-4E6BEC357DB7">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>824D5C03-458E-7066-4489-FF78D79648C1</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT NAME" id="2073E2FE-78E7-394C-5C52-D7AA5E615B23">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>8D929AF0-DC5D-93FF-6C8A-C4ED07532EED</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="BD90FDEB-D337-436E-1B3A-9AB798FBA4F6">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>9C2B8CB9-6119-761A-991E-209157D095A2</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STANDARD COST" id="763B70EE-4F21-26BA-0D3A-8CFAE3426399">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>ABCC0671-4C5F-5801-35B9-032FBCB5B021</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIST PRICE" id="8F247903-5116-7CE4-49C9-9458CE02D6EF">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>9BCA937D-C821-B554-FCE2-B155D6CA69D5</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY ID" id="1FE4DFA4-92D1-2ED6-5833-56A0204A01C3">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>9AD9F444-476C-5B48-16D2-58A5D49D7C6F</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<referedAttribute>7F707DD6-4638-ADE2-6265-CBC878555997</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="960415E0-368B-EA3E-E272-56390D8DE334" name="PRODUCTS PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>15096463-F59F-6927-EB5E-BDB49ED0F21F</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37A27DD6-A683-C8D2-BEBE-4E6BEC357DB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

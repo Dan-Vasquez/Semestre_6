@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Transversal1" id="ED97ADE8-3FC8-F79A-62E3-D88E8D4401EF" version="3.5">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:31:30 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ED97ADE8-3FC8-F79A-62E3-D88E8D4401EF</designId>
+</OSDM_Design>

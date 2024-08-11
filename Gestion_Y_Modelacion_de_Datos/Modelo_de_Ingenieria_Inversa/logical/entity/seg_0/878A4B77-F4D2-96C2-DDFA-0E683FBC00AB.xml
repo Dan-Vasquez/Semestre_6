@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="878A4B77-F4D2-96C2-DDFA-0E683FBC00AB" name="EMPLOYEES">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>4C0688EF-669B-CD87-24BB-069DA29130FF</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYEE ID" id="D3DD987D-968D-7679-2BBC-2AF4E7BD2F01">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>D2C4EA53-FB41-13FF-12C7-0E06D2991CD5</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="EE33051B-E83A-C4D9-CA86-B82F456E7969">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>945B7D05-C77B-F1BA-B412-84F9BF2E8C3D</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="3923138E-9859-2A1E-F23B-368F0EA053DE">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>D0498DE4-FF73-DE04-80B2-70A897BB6A63</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="11C53686-893C-7D21-28C7-EC8289DBFB9E">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>51592364-1EBB-33C5-A1BD-99CC014129DF</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE" id="A082A779-9EFC-4A84-39CB-23429D9DDAA4">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>AF2FCB16-02AE-81AE-79F0-7ED4D2C07E89</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HIRE DATE" id="9D3B5AB8-FEE0-9FD3-F3F4-81A3E8AB3A56">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>46A5EE7C-167A-0C16-64FC-50EC352A92BC</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANAGER ID" id="3F2ED520-3717-53D8-7BB2-3EE38E4A01D6">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>6FAB8AF6-D359-EBE4-8FEB-1C3DF955B7F6</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D3DD987D-968D-7679-2BBC-2AF4E7BD2F01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB TITLE" id="8A142DE2-F8CF-AA19-4C1B-7F237F206B46">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>412B9A8A-9CA4-317C-B8CE-6AEDF58B2D88</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65BC0E8B-7DEB-5679-8725-ED1602179F96" name="EMPLOYEES PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>12BAC328-4DAE-642B-391E-F7F693F29FEC</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3DD987D-968D-7679-2BBC-2AF4E7BD2F01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

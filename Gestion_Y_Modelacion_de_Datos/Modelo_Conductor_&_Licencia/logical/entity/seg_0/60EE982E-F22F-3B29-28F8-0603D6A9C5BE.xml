@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60EE982E-F22F-3B29-28F8-0603D6A9C5BE" name="Conductor">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>DCD5EAE9-1B37-BDD8-7D3D-EE3C4543246C</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Num_Documento" id="913B2A48-DB07-F4CA-3CF6-F9D0FEC58494">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>686F2CB6-E8F7-75CF-C7E6-AF1B0809A73B</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Documento" id="E4ADB97B-B5E6-465D-D0CC-DA1854BB5812">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>9C440037-7F7E-7EB8-CDB6-47B66E0CE85D</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nacimiento" id="0F1153C8-ADE1-5516-E018-694F3BAD2C31">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>C47F52AF-B3F0-C96B-5C18-62BD8A7D67DE</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre1" id="C6AD1900-D046-5152-F5D7-BB94951561FE">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>9BEDA069-D651-9153-5F8F-6B8CACD32842</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre2" id="5A0E897F-F395-7D16-3DCD-AED1D7816DE0">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>74602AE2-DCB5-8608-375B-6D45A91AAB96</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido1" id="7CCD0776-2722-3FF5-B4E2-F7EE8D261B86">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>07382507-FB82-80F5-5E34-B48F04B272FB</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido2" id="C2E1F033-ED40-27D7-0E17-DC7FC03D9FCD">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>8687EE2B-1EB3-93D3-D49E-E53BB731A209</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="7A9D7B36-BFC0-7770-10AC-3FA7F5F260F1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<generatorID>557AED5E-AA29-79D1-5578-57915A637235</generatorID>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>B0F11145-421D-5361-58D4-472EA6151938</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<referedAttribute>EFEC6413-79FC-8010-E16C-B9FE2CCCF9D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9517F66D-2853-94A5-A7C6-ED1D7218B36B" name="Conductor PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>7085E2DD-9A3D-8F6D-5508-626BE78E45ED</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>913B2A48-DB07-F4CA-3CF6-F9D0FEC58494</attributeRef>
+<attributeRef>E4ADB97B-B5E6-465D-D0CC-DA1854BB5812</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

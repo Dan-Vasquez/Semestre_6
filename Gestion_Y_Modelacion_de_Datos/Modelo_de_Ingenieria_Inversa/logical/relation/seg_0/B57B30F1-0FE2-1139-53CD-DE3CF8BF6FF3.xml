@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_WAREHOUSES_LOCATIONS" directorySegmentName="seg_0" id="B57B30F1-0FE2-1139-53CD-DE3CF8BF6FF3">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>AEF5C264-0B1B-B0FB-0E40-AD1B466AFF3F</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<sourcePk>7A11AFE1-C1D0-A26F-A268-50ECD4BF008C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>372A1457-2D6F-6493-7E6B-EB97E647D1D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4544F872-838F-0A2F-5435-5B861AD08E08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

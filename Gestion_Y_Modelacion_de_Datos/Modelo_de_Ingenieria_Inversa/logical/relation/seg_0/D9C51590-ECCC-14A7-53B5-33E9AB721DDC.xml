@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ORDERS_EMPLOYEES" directorySegmentName="seg_0" id="D9C51590-ECCC-14A7-53B5-33E9AB721DDC">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:37:51 UTC</createdTime>
+<generatorID>8F1E241B-6B11-D908-4553-4AEA5F0BEAFF</generatorID>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<engineerTo>
+<item key="580A25C3-DF3D-4464-317E-0342D625CF52" value="true"/>
+</engineerTo>
+<sourcePk>65BC0E8B-7DEB-5679-8725-ED1602179F96</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>878A4B77-F4D2-96C2-DDFA-0E683FBC00AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6E14C79-2209-34C8-FA9E-51CFD0701556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

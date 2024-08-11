@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="227E7325-C31F-B04A-445D-7A783D3C159B" mainViewID="28C9EA2A-9A36-82E5-F719-70AC8D018A0A">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:31:30 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="087928DD-C332-E7C8-BAF8-8D6354E31125" name="S2_Bailarin">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:32:01 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_Cedula" id="45EFFEA4-7057-BA81-09D7-B092D6D3474C">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:49:29 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="C4951929-6E73-1C4E-38C5-CD1250072747">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:50:07 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="3AC3967F-D979-41C9-665C-6894FBC510D8">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:50:35 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="C687C8AD-B03E-CCC2-2FA4-E019651CF5E1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:55:47 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Nacimiento" id="DED74890-261A-72AE-B02E-3BC4152E29BC">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:56:20 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Rol" id="DF592C9D-6A28-0192-B5DE-0A8B797FD34A">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:46:30 UTC</createdTime>
+<generatorID>0DA44014-E58F-BA9B-E525-AAF2AFADCB42</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<referedAttribute>FA0FAB03-41DC-E0B7-47BB-976D5318DA54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Carrera" id="D09BD330-DF4A-A8BA-9E53-7D932C3CA354">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:58:46 UTC</createdTime>
+<generatorID>71787F53-5AA5-C410-57BC-3E7EC83D53E8</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9561A6A8-A3F6-07E4-454B-13D6A19DDB39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41D1C066-15FD-0C75-EB5A-7ADD1D544E6D" name="Bailarin PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:49:35 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="false"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45EFFEA4-7057-BA81-09D7-B092D6D3474C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

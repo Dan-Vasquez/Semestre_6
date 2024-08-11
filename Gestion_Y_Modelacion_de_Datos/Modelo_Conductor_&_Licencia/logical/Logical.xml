@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B0F9BF5F-EB0F-ABAB-F830-79256A2E8374" mainViewID="E606501D-FEEC-E4E5-A94B-2C7F7A5A2191">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:20 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

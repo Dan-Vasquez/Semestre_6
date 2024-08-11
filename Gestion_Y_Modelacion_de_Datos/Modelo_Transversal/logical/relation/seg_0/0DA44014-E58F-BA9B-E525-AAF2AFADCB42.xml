@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Baila_Rol" directorySegmentName="seg_0" id="0DA44014-E58F-BA9B-E525-AAF2AFADCB42">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-18 21:46:30 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+<item key="5D382F7F-ACA6-7A4B-5CD4-DE147B79906B" value="true"/>
+</engineerTo>
+<sourcePk>FCA433FA-EF44-43C6-5277-28AE933463E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DED4E2A-67D7-4ECF-224B-DF815F26B186</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>087928DD-C332-E7C8-BAF8-8D6354E31125</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

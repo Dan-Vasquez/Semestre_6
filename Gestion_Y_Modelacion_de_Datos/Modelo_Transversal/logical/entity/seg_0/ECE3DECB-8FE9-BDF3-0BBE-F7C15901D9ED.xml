@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECE3DECB-8FE9-BDF3-0BBE-F7C15901D9ED" name="S2_Concurso">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:33:15 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_Concurso" id="F51A5F8F-B9E0-0333-9A46-3F92E1225FD8">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:10:22 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lugar" id="F84CDC71-718C-FFF3-DE25-81323DF87423">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:11:06 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="122D3449-F8C1-A1FC-55B9-9EE8BD426173">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:11:27 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posicion" id="CA1B44E9-24F6-D40E-D491-65F8D80220BE">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:11:38 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="282563D4-9D48-74DD-DB0A-AAE37F1351F1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:20:41 UTC</createdTime>
+<generatorID>41BFE714-438F-C395-378A-76E6049E253A</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<referedAttribute>DE3D6CBC-BD92-788D-4C63-82BA01EE3B4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Grupo" id="64FDB2FE-4972-5899-B337-766D520AF8F1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:35:58 UTC</createdTime>
+<generatorID>1F48CE08-68F1-1574-9013-16BBD2532244</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<referedAttribute>526D347F-58C6-C7B5-96BF-4F8367817B69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo1" id="C43AE2D8-DA99-4971-F1C7-888002DD8E01">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 14:40:50 UTC</createdTime>
+<generatorID>12F1B3E0-F816-680F-B8C8-9D3988F71059</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<referedAttribute>42676AF7-BBC2-5E15-2380-CB4708D5FE23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo2" id="7D9BED0B-2152-C0E4-5657-E277424600E4">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 14:41:54 UTC</createdTime>
+<generatorID>E5A98AE6-2405-A98B-D6D7-48CEE3678E36</generatorID>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<referedAttribute>3E4CBD1E-A5EB-D63A-E859-F6E322E40528</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43295576-DAB9-F6B9-D38A-E693B8FE0436" name="Concurso PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:10:50 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F51A5F8F-B9E0-0333-9A46-3F92E1225FD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

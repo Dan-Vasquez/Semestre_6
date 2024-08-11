@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Conductor_Licencia_MRD" id="03599997-0212-ECC9-30AA-823CA6AD625A" version="3.5">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:20 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>03599997-0212-ECC9-30AA-823CA6AD625A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B99012DB-B2F6-0BCC-CA07-88DFD9B8A77A">
+<designStoragePath>C:\Users\dhasc\Desktop\Conductor_Licencia_MRD</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="070340EF-C587-FDD0-E03A-3CCE6CE7384E">
+<designStoragePath>C:\Users\dhasc\Desktop\Conductor_Licencia_MRD</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C373A96C-EB1A-DF74-62C8-EA754A56A219">
+<designStoragePath>C:\Users\dhasc\Desktop\Conductor_Licencia_MRD</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

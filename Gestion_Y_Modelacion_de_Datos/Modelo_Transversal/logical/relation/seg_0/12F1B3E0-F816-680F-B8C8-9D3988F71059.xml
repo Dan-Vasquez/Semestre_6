@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="S2_Concurso_Rtimo" directorySegmentName="seg_0" id="12F1B3E0-F816-680F-B8C8-9D3988F71059">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 14:40:50 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<sourcePk>08CF811A-28F3-C32B-2A12-347F66265752</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9587CEEC-C15D-4888-3712-979F285FF163</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECE3DECB-8FE9-BDF3-0BBE-F7C15901D9ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

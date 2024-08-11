@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E3D915E5-F28F-286A-C8E5-E1C2FD9B8EE3" mainViewID="65C9DD31-C7BD-2614-3559-482AEB0A53A5">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:12:26 UTC</createdTime>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

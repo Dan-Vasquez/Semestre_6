@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="580A25C3-DF3D-4464-317E-0342D625CF52" mainViewID="8ECB8952-DB3B-1506-12CD-4A0DA1E9F89B">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:12:33 UTC</createdTime>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>BD30</connName>
+<connUser>BD30</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

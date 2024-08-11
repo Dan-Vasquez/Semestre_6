@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="ED39B98C-5AE3-0A92-0C16-5ED4035FD1B1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 12:31:30 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

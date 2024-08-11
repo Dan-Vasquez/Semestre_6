@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF8E2533-258B-8BDF-7667-89F07C02DFED" name="Licencia">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:38 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>1B30BA63-CB52-53E4-695D-F6080713B179</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha_Expedicion" id="887220C2-1C7A-CB39-8A36-3B8BC0DFAF31">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>5A44067B-5827-38D3-154E-3B4C9E7B75F2</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Licencia" id="B89BE9BC-4816-301D-BE5A-1879163EE788">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>23C5C745-71A1-E737-9C88-AA9B688F9087</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Documento" id="35F452A1-D62A-0E90-1269-36D50B048040">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<generatorID>4068CC40-5C9E-CE25-35C4-431266C28747</generatorID>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>D5474821-C3E3-4C20-3ACF-7FD78F977D34</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<referedAttribute>913B2A48-DB07-F4CA-3CF6-F9D0FEC58494</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Documento" id="4F9D3D65-FE29-AD67-A886-51253A4EF99F">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<generatorID>4068CC40-5C9E-CE25-35C4-431266C28747</generatorID>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>05E4CD09-FF7A-F767-5E62-611D8F92D2F3</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<referedAttribute>E4ADB97B-B5E6-465D-D0CC-DA1854BB5812</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="3D2C1CD0-3A1E-5436-FE48-62DE9AC2BB9A">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<generatorID>BA370AF3-6870-2FA8-4870-5C0B6BF68276</generatorID>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>00C7DF51-CEF9-49ED-F991-CBC42955EEF3</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<referedAttribute>5B0428D1-670E-9800-677B-AECE3B10C3BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="231CC91E-37E1-E63B-0690-64B5DDD45151" name="Licencia PK">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-25 15:28:39 UTC</createdTime>
+<ownerDesignName>Conductor_Licencia_MRD</ownerDesignName>
+<importedID>31C4D794-0D5B-A7BF-CC00-DB84FA195C4B</importedID>
+<engineerTo>
+<item key="9AEA28B0-EC51-6FAC-425B-BE748FA41366" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B89BE9BC-4816-301D-BE5A-1879163EE788</attributeRef>
+<attributeRef>3D2C1CD0-3A1E-5436-FE48-62DE9AC2BB9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="S2_Comercio" directorySegmentName="seg_0" id="3208D374-5AFB-8191-8311-1359077D5A81">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-10-15 13:36:35 UTC</createdTime>
+<ownerDesignName>Transversal1</ownerDesignName>
+<engineerTo>
+<item key="1B4EBCBF-3AD9-906A-0477-2CCAB7108149" value="true"/>
+<item key="DF97245A-8162-A075-04EF-BE068091B2BE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1E8C9D26-85A1-3940-0D0F-CB9439DD1064</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>087928DD-C332-E7C8-BAF8-8D6354E31125</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="22C08294-7008-93A7-52CF-7C3F0768D4F1">
+<createdBy>dhasc</createdBy>
+<createdTime>2023-08-18 14:12:26 UTC</createdTime>
+<ownerDesignName>Modelo_de_ingenieria_inversa_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
